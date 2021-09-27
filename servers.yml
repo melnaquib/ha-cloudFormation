@@ -69,7 +69,6 @@ Resources:
           aws s3 cp s3://uda-project-2/udacity.zip .
           unzip -o udacity.zip
       ImageId: ami-03d5c68bab01f3496
-      KeyName: uda-project-2
       SecurityGroups:
         - Ref: WebServerSecGroup
       InstanceType: t2.micro
